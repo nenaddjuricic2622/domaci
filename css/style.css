@@ -1,0 +1,222 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+
+body {
+	background-color: #fff;
+	color: #777;
+	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color: #444;
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-weight: 300;
+	color: #444;
+	font-size: 55px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #444;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 24px;
+	color: #444;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 15px;
+	color: #444;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover {
+	color: #02b8dd;
+}
+
+strong {
+	font-weight: bold;
+}
+
+small {
+	font-size: 13px;
+	color: #777;
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	margin: auto;
+	padding: 30px 10px;
+	width: 900px;
+}
+
+
+header {
+	height: 200px;
+
+}
+
+header h1 {
+	float: top;
+	margin-top: 12px;
+}
+
+header h1 .color {
+	color: #02b8dd;
+}
+
+header nav {
+    float: left;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+
+header nav ul li {
+    
+	float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	height: 50px;
+	width: 130px;
+}
+
+header nav ul li a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+header nav li a:hover {
+	background-color: #111;
+}
+
+
+
+header input[type = text]{
+	background-color: white;
+	border: 1;
+	height: 50px;
+	width: 150px;
+	padding: 0px;
+	color: black;
+	font-weight: 500;
+}
+
+header input[type = submit]{
+	background-color: green;
+	border: 0;
+	width: 150px;
+	height: 50px;
+	color: white;
+	text-align: center;
+}
+
+
+
+#sadrzaj {
+	padding: 10px 10px;
+	text-align: center;
+}
+
+#sadrzaj article {
+	width: 400px;
+	height: 270px;
+	float: left;
+	background-color: #f5f5f5;
+
+}
+
+#sadrzaj article{
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#sadrzaj article .overlay {
+	background: rgba(255, 255, 255, .7);
+    width: 150px;
+	height: 270px;
+	padding: 10px;
+}
+
+article h4 {
+	border-bottom: 1px solid #02b8dd;
+	padding-bottom: 10px;
+}
+
+.more-link {
+	border: 1px solid #02b8dd;
+	color: #02b8dd;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+
+.more-link:hover {
+	background-color: #02b8dd;
+	color: #fff;
+}
+
+
+footer {
+	padding: 20px 0;
+	background-color: #f8fafa;	
+}
+
+#footer-info {
+	width: 380px;
+	float: left;
+	margin-top: 10px;
+}
+
+#footer-links {
+	width: 520px;
+	float: right;
+}
+
+#footer-links ul {
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+}
+
+#footer-links ul li {
+	margin: 10px 0;
+}
